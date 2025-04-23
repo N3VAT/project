@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+
+h1,h2{
+  margin: 0;
+}
+.header{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20.62px 220px;
+  gap: 223px;
+}
+.logo{
+  display: flex;
+}
+.location{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 12px;
+}
+.deliver-to{
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 140%;
+  font-size: 18px;
+}
+.address{
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 140%;
+  font-size: 18px;
+}
+.search-and-login{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.searcher{
+  display: flex;
+  gap: 8px;
+}
+.search-icon{
+  width: 18px;
+  height: 18px;
+}
+.search-food{
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 18px;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
+  line-height: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 7px;
+  color: #FF8A00;
+  border: 0;
+  border-radius: 8px;
+  height: 46px;
+  width: 118px;
+  filter: drop-shadow(0 6px 8px #FFB800);
+  background-color: #ffff;
+}
+.welcome-menu{
+  display: flex;
+}
+.background-welcome-menu{
+  display: flex;
+  background: radial-gradient(circle, #FFB800, #FF8A00);
+  height: 620px;
+  width: 1920px;
+}
+.title-and-ordercard{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ gap: 32px;
+ padding: 132px 220px;
+}
+.headline-of-ordercard{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 856px;
+  filter: drop-shadow(0px 14px 15px #ffc038);
+}
+.main-starving{
+  color: #ffff;
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 88px;
+}
+.sub-starving{
+  color: #504F4F;
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  font-size: 22px;
+}
+.ordercard{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  border-radius: 16px;
+  height: 194.44px;
+  width: 856px;
+}
+.ordercard-buttons{
+  display: flex;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  gap: 8px;
+}
+
+.tab-1{
+  width: 148px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #ffff;
+  color: #757575;
+  border: 0;
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 18px;
+}
+
+.tab-1:hover{
+  color: #F17228;
+  background-color: #f1722842;
+}
+  .tab-2{
+  width: 148px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #ffff;
+  color: #757575;
+  border: 0;
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 18px;
+}
+.tab-2:hover{
+  color: #F17228;
+  background-color: #f1722842;
+}
+.maim-menu-img{
+  padding:180px 0px;
+}
+.plate-of-food{
+  display: flex;
+  height: 497px;
+  width: 497px;
+}
+
+.address-input {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  width: 808px;
+  height: 60px;
+  position: relative; 
+}
+
+.address-input img {
+  position: absolute;
+  left: 40px;
+  z-index: 1; 
+}
+
+.address-field {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border: 0;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  line-height: 140%;
+  font-size: 18px;
+  width: 593px;
+  height: 49px;
+  padding-left: 50px; 
+}
+
+.find-food-button{
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border: 0;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  line-height: 140%;
+  font-size: 18px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, #FF7A7A, #F65900);
+  width: 170px;
+  height: 55px;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url(../Fonts/SourceSansPro-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url(../Fonts/SourceSansPro-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+    font-family: "SourceCodePro";
+    src: url("../Fonts/SourceCodePro-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SourceCodePro";
+    src: url("../Fonts/SourceCodePro-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "SourceCodePro";
+    src: url("../Fonts/SourceCodePro-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../Fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../Fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../Fonts/OpenSans-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
